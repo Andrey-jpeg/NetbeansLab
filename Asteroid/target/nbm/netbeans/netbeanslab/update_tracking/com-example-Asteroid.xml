@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.example.Asteroid">
+    <module_version install_time="1646063352710" last="true" origin="installer" specification_version="1.0">
+        <file crc="421513830" name="config/Modules/com-example-Asteroid.xml"/>
+        <file crc="4046690795" name="modules/com-example-Asteroid.jar"/>
+    </module_version>
+</module>

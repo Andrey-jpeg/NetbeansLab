@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.example.Common">
+    <module_version install_time="1646063351405" last="true" origin="installer" specification_version="1.0">
+        <file crc="1077589054" name="config/Modules/com-example-Common.xml"/>
+        <file crc="251184986" name="modules/com-example-Common.jar"/>
+    </module_version>
+</module>
