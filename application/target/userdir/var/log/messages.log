@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Tuesday, March 1, 2022 at 12:09:58 PM Central European Standard Time
+>Log Session: Tuesday, March 1, 2022 at 1:00:13 PM Central European Standard Time
 >System Info: 
   Product Version         = Apache NetBeans Platform Dev (Build 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54)
   Operating System        = Mac OS X version 12.2 running on x86_64
@@ -11,10 +11,7 @@
   Current Directory       = /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application
   User Directory          = /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application/target/userdir
   Cache Directory         = /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application/target/userdir/var/cache
-  Installation            = /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application/target/netbeanslab/asteroidsnetbeansmodules
-                            /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application/target/netbeanslab/bin
-                            /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application/target/netbeanslab/platform
-                            /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application/target/netbeanslab/etc
+  Installation            = /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application/target/netbeanslab/platform
                             /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application/target/netbeanslab/netbeanslab
                             /Users/casperandresen/Documents/SDU/sem4/componentbased/NetbeansLab/application/target/netbeanslab/platform
   Boot & Ext. Classpath   = 
@@ -74,7 +71,7 @@ java.lang.IllegalAccessException: class org.netbeans.Module cannot access a memb
 	at org.netbeans.core.startup.Main.start(Main.java:282)
 	at org.netbeans.core.startup.TopThreadGroup.run(TopThreadGroup.java:98)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-SEVERE [null]: Last record repeated 11 times in total.
+SEVERE [null]: Last record repeated 7 more times.
 SEVERE [org.openide.util.Exceptions]
 java.lang.IllegalAccessException: class org.netbeans.Module cannot access a member of class java.lang.ClassLoader (in module java.base) with modifiers "protected"
 	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
@@ -197,11 +194,8 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.core.netigso [1.37 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
 	org.netbeans.modules.netbinox [1.47 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
 	org.netbeans.api.annotations.common/1 [1.33 11.2-d04fb24027334c4b6fd8397b5d0cdd33187a8f54]
-	dk.sdu.mmmi.cbse.Common [1.0 1.0-20220301 202203011105]
-	dk.sdu.mmmi.cbse.CommonBullet [1.0 1.0-20220301 202203011105]
-	dk.sdu.mmmi.cbse.Player [1.0 1.0-20220301 202203011105]
-	dk.sdu.mmmi.cbse.CommonEnemy [1.0 1.0-20220301 202203011105]
-	dk.sdu.mmmi.cbse.Enemy [1.0 1.0-20220301 202203011105]
-	dk.sdu.mmmi.cbse.Core [1.0 1.0-20220301 202203011105]
-	dk.sdu.mmmi.cbse.CommonAsteroids [1.0 1.0-20220301 202203011105]
-	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20220301 202203011105]
+	dk.sdu.mmmi.cbse.Common [1.0 1.0-20220301 202203011157]
+	dk.sdu.mmmi.cbse.Player [1.0 1.0-20220301 202203011157]
+	dk.sdu.mmmi.cbse.Enemy [1.0 1.0-20220301 202203011157]
+	dk.sdu.mmmi.cbse.Core [1.0 1.0-20220301 202203011157]
+	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20220301 202203011157]

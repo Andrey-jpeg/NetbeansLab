@@ -7,6 +7,11 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 
+import org.openide.util.lookup.ServiceProvider;
+import org.openide.util.lookup.ServiceProviders;
+
+@ServiceProviders(value = {
+        @ServiceProvider(service = IGamePluginService.class), })
 public class PlayerPlugin implements IGamePluginService {
 
     private Entity player;
@@ -16,7 +21,7 @@ public class PlayerPlugin implements IGamePluginService {
 
     @Override
     public void start(GameData gameData, World world) {
-        
+
         // Add entities to the world
         player = createPlayerShip(gameData);
         world.addEntity(player);
@@ -31,11 +36,11 @@ public class PlayerPlugin implements IGamePluginService {
         float x = gameData.getDisplayWidth() / 2;
         float y = gameData.getDisplayHeight() / 2;
         float radians = 3.1415f / 2;
-        
+
         Entity playerShip = new Player();
         playerShip.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
         playerShip.add(new PositionPart(x, y, radians));
-        
+
         return playerShip;
     }
 

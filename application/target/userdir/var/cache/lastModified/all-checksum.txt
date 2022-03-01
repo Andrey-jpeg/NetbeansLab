@@ -1,10 +1,7 @@
-platform=1646132998473
-cluster.asteroidsnetbeansmodules=1646132998473
-cluster.bin=1646132998473
-cluster.platform=1646132998473
-cluster.etc=1646132998473
-cluster.netbeanslab=1646132998473
-user=1646132998473
+platform=1646135860573
+cluster.platform=1646135860573
+cluster.netbeanslab=1646135860573
+user=1646135860573
 crc=7
 locale=en_DK
 branding=netbeanslab

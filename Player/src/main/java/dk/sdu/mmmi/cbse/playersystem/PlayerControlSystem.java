@@ -13,10 +13,11 @@ import static java.lang.Math.cos;
 import static java.lang.Math.sin;
 import static java.lang.Math.sqrt;
 
-/**
- *
- * @author jcs
- */
+import org.openide.util.lookup.ServiceProvider;
+import org.openide.util.lookup.ServiceProviders;
+
+@ServiceProviders(value = {
+        @ServiceProvider(service = IEntityProcessingService.class), })
 public class PlayerControlSystem implements IEntityProcessingService {
 
     @Override
@@ -29,8 +30,7 @@ public class PlayerControlSystem implements IEntityProcessingService {
             movingPart.setLeft(gameData.getKeys().isDown(LEFT));
             movingPart.setRight(gameData.getKeys().isDown(RIGHT));
             movingPart.setUp(gameData.getKeys().isDown(UP));
-            
-            
+
             movingPart.process(gameData, player);
             positionPart.process(gameData, player);
 
