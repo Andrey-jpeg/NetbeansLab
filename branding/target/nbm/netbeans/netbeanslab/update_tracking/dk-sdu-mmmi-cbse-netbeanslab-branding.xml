@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.netbeanslab.branding">
-    <module_version install_time="1646131111612" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1646132693147" last="true" origin="installer" specification_version="1.0">
         <file crc="3109679619" name="config/Modules/dk-sdu-mmmi-cbse-netbeanslab-branding.xml"/>
-        <file crc="2585318526" name="core/locale/core_netbeanslab.jar"/>
-        <file crc="1304734494" name="modules/dk-sdu-mmmi-cbse-netbeanslab-branding.jar"/>
-        <file crc="3075401839" name="modules/locale/org-netbeans-core-windows_netbeanslab.jar"/>
-        <file crc="1433383783" name="modules/locale/org-netbeans-core_netbeanslab.jar"/>
+        <file crc="3701780156" name="core/locale/core_netbeanslab.jar"/>
+        <file crc="674898474" name="modules/dk-sdu-mmmi-cbse-netbeanslab-branding.jar"/>
+        <file crc="2000176345" name="modules/locale/org-netbeans-core-windows_netbeanslab.jar"/>
+        <file crc="2979749517" name="modules/locale/org-netbeans-core_netbeanslab.jar"/>
     </module_version>
 </module>

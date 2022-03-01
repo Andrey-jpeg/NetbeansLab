@@ -65,7 +65,7 @@
         <module>Player</module>
         <module>Enemy</module>
         <module>Asteroid</module>
-        <module>Application</module>
+        <module>application</module>
     </modules>
 
     <properties>
